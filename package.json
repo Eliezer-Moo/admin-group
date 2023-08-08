@@ -4,6 +4,7 @@
   "description": "backend system group",
   "main": "index.js",
   "scripts": {
+    "dev":"node --watch server.express.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -21,9 +22,10 @@
     "picocolors": "1.0.0"
   },
   "devDependencies": {
+    "nodemon": "3.0.1",
     "standard": "17.1.0"
   },
   "eslintConfig": {
-    "extends":"standard"
+    "extends": "standard"
   }
 }
